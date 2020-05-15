@@ -1,1 +1,3 @@
 require('./cable');
+
+require('./lottie');

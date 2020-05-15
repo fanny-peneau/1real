@@ -3,11 +3,11 @@
  * Template Name: Marzipano
  */
 
-add_filter('body_class', 'mes_classes_body');
-function mes_classes_body($classes)
-{
-    $classes[] = 'marzipano-page single-scene view-control-buttons';
-    return $classes;
+add_filter( 'body_class', 'mes_classes_body' );
+function mes_classes_body( $classes ) {
+	$classes[] = 'marzipano-page single-scene view-control-buttons';
+
+	return $classes;
 }
 
 get_header(); ?>

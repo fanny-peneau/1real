@@ -1,0 +1,57 @@
+#memory {
+  height: 340px;
+}
+
+#binaural {
+  height: 340px;
+}
+
+#waves {
+  width: 900px;
+  height: 230px;
+  position: absolute;
+  left: calc(-50% - 450px);
+  bottom: 0px;
+}
+
+#waves-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#waves-left, #waves-right {
+  width: 50vw;
+  height: 230px;
+  position: absolute;
+  top: calc(50vh - 115px);
+}
+
+#waves-left {
+  left: -30px;
+}
+
+#waves-right {
+  transform: rotate(180deg);
+  transform-origin: center center;
+  right: -30px;
+}
+
+#distance {
+  width: 505px;
+}
+
+#temporel {
+  height: 400px;
+}
+
+#casque {
+  width: 340px;
+  height: 340px;
+}

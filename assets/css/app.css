@@ -14,6 +14,11 @@ body {
   padding-left: 8px;
 }
 
+#jumbotron {
+  min-height: 100vh;
+  position: relative;
+}
+
 .arrow-button .elementor-button {
   position: relative;
   display: inline-block;
@@ -92,6 +97,65 @@ body {
 
 .arrow-button-blue .elementor-button:hover::after {
   left: calc(120% - 6px);
+}
+
+#memory {
+  height: 340px;
+}
+
+#binaural {
+  height: 340px;
+}
+
+#waves {
+  width: 900px;
+  height: 230px;
+  position: absolute;
+  left: calc(-50% - 450px);
+  bottom: 0px;
+}
+
+#waves-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+#waves-left,
+#waves-right {
+  width: 50vw;
+  height: 230px;
+  position: absolute;
+  top: calc(50vh - 115px);
+}
+
+#waves-left {
+  left: -30px;
+}
+
+#waves-right {
+  transform: rotate(180deg);
+  transform-origin: center center;
+  right: -30px;
+}
+
+#distance {
+  width: 505px;
+}
+
+#temporel {
+  height: 400px;
+}
+
+#casque {
+  width: 340px;
+  height: 340px;
 }
 
 .marzipano-page .menu-elementor {
@@ -846,5 +910,58 @@ body.view-control-buttons .viewControlButton {
 .info-hotspot-text {
   min-height: 335px;
   overflow: hidden !important;
+}
+
+.scroll-pin {
+  z-index: 9;
+  position: absolute;
+  background-image: url("http://1real.local/wp-content/uploads/2020/05/scroll-bg.svg");
+  background-size: cover;
+  width: 165px;
+  height: 36px;
+  bottom: 0;
+  left: calc(50% - 82.5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.arrow-down {
+  transform: rotate(90deg);
+  margin-top: 15px;
+}
+
+.arrow-down :hover {
+  -webkit-animation: float 3s ease-in-out infinite;
+          animation: float 3s ease-in-out infinite;
+}
+
+@-webkit-keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-20px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-20px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
 }
 
