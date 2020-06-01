@@ -14,3 +14,13 @@
     background-color: #FF7E78;
   }
 }
+
+@media (max-width: 600px) {
+  .pastille {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+}

@@ -33,9 +33,9 @@ var APP_DATA = {
                 {
                     "yaw": -2.179983615076326,
                     "pitch": -0.24301691261519487,
-                    "title": "Petite aigrette",
+                    "title": "Bruits eau",
                     "text": `
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Fo_MbxjQ4u4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope"></iframe>
+<audio controls src="/wp-content/themes/hello-theme-child-master/assets/audio/piscine.wav"></audio>
 `
                 }
             ]

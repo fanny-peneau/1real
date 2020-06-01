@@ -1,3 +1,18 @@
 :root {
-  --tooltype-width: 580px;
+  --tooltype-width: 320px;
 }
+
+//colors
+$dark: #170D54;
+$secondary: #30247B;
+$purple: #4925CC;
+$blue-green: #2AD8C3;
+$red: #F9225D;
+$saumon: #FF7E78;
+$yellow: #FFB048;
+$light-grey: #B8BFD2;
+
+$dark-transparent: rgba(23, 13, 84, 0.8);
+
+$theme-path: '/wp-content/themes/hello-theme-child-master';
+$assets-path: $theme-path + '/assets';

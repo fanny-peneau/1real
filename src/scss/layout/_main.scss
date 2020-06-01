@@ -6,12 +6,43 @@ body {
 
 /*bordure paragraphe*/
 .border-left {
-  border-left: solid 2px;
-  border-color: #170D54;
+  border-left-width: 2px;
+  border-left-style: solid;
   padding-left: 8px;
+
+  &.border-light {
+    border-color: $light-grey;
+  }
+
+  &.border-dark {
+    border-color: $dark;
+  }
 }
+
 
 #jumbotron {
   min-height: 100vh;
   position: relative;
+}
+
+//scrollbar
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $light-grey;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $secondary;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $dark;
 }
